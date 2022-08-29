@@ -45,12 +45,21 @@
 			<artifactId>mariadb-java-client</artifactId>
 			<version>3.0.4</version>
 		</dependency>
-        <!-- Security -->
+
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-mysql</artifactId>
+		</dependency>
+		<!-- Security -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-
         <!-- Mail support -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
