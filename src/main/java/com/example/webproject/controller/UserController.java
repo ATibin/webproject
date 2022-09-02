@@ -1,4 +1,4 @@
-package com.example.webproject.controllers;
+package com.example.webproject.controller;
 
 import com.example.webproject.domain.Role;
 import com.example.webproject.domain.User;

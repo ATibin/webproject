@@ -13,7 +13,8 @@ public class MvcConfig implements WebMvcConfigurer {
     private String uploadPath;
 
     public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/login").setViewName("login");
+        //noinspection SpringMVCViewInspection
+        registry.addViewController("/login").setViewName("login.ftlh");
     }
 
     @Override
